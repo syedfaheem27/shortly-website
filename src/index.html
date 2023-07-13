@@ -19,6 +19,88 @@
     <title>Shortly</title>
   </head>
   <body>
-    <h1 class="text-lg">Hello</h1>
+    <!-- The Nav Container -->
+    <nav
+      class="relative flex justify-between items-center container mx-auto px-3 pt-5"
+    >
+      <!-- The Nav-Items-->
+      <!-- Item-1 -->
+      <div class="flex gap-x-16 items-center">
+        <!-- The Logo -->
+        <img src="./images/logo.svg" alt="" />
+        <!-- The features section -->
+        <div class="hidden lg:flex gap-x-8">
+          <!-- Features -->
+          <a
+            href="#"
+            class="font-bold text-grayishViolet hover:text-veryDarkViolet"
+            >Features</a
+          >
+          <!-- Pricing -->
+          <a
+            href="#"
+            class="font-bold text-grayishViolet hover:text-veryDarkViolet"
+            >Pricing</a
+          >
+          <!-- Resources -->
+          <a
+            href="#"
+            class="font-bold text-grayishViolet hover:text-veryDarkViolet"
+            >Resources</a
+          >
+        </div>
+      </div>
+      <!-- Item-2 -->
+      <div class="hidden lg:flex gap-x-8 items-center">
+        <!-- Login -->
+        <a
+          href="#"
+          class="font-bold text-grayishViolet hover:text-veryDarkViolet"
+          >Login</a
+        >
+        <!-- Signup button -->
+        <a
+          href="#"
+          class="px-8 py-3 text-center font-bold bg-cyan rounded-full text-white hover:opacity-70"
+        >
+          sign Up
+        </a>
+      </div>
+      <!-- @Todo Hamburger -->
+    </nav>
+    <!-- The Hero section -->
+    <section id="hero" class="px-3 pt-5">
+      <!-- The cointainer -->
+      <div
+        class="container mx-auto flex flex-col justify-between gap-y-10 lg:flex-row-reverse lg:gap-x-10"
+      >
+        <!-- The image -->
+        <div class="mb-16 mx-auto md:w-180 lg:w-1/2 lg:mb-0">
+          <img src="./images/illustration-working.svg" alt="" />
+        </div>
+        <!-- Content -->
+        <div class="flex flex-col gap-y-10 lg:w-1/2 mb-44 lg:mt-16 xl:mb-52">
+          <h1
+            class="text-5xl font-bold lg:max-w-md lg:text-6xl text-center lg:text-left"
+          >
+            More than just shorter links
+          </h1>
+          <p
+            class="text-2xl text-center lg:text-left lg:max-w-md text-gray-400"
+          >
+            Build your brand's recognition and get detailed insights on how your
+            links are performing.
+          </p>
+          <div class="mx-auto lg:mx-0">
+            <a
+              href="#"
+              class="px-12 py-6 lg:py-5 bg-cyan text-white font-bold text-2xl rounded-full text-center mx-auto hover:opacity-70"
+            >
+              Get Started
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
