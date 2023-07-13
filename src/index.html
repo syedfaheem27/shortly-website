@@ -15,6 +15,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/script.js" defer></script>
 
     <title>Shortly</title>
   </head>
@@ -98,6 +99,95 @@
             >
               Get Started
             </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- The shorten link section -->
+    <section id="shorten-link" class="pt-6 pl-3 pb-2 bg-gray-100">
+      <!-- The container -->
+      <div class="max-w-4xl mx-auto flex flex-col gap-y-6">
+        <!-- The form -->
+        <form
+          id="link-form"
+          class="relative py-8 px-10 flex flex-col gap-y-4 rounded-lg bg-darkViolet w-full -mt-20 md:flex-row gap-x-4"
+        >
+          <input
+            id="link-input"
+            type="text"
+            class="px-4 py-3 flex-1 rounded-lg placeholder:text-yellow-300 focus:outline-none border"
+            placeholder="Shorten a link here"
+          />
+          <button
+            class="bg-cyan text-white py-3 px-12 rounded-lg hover:bg-cyanLight"
+          >
+            Shorten It!
+          </button>
+          <!-- Error-Message -->
+          <div
+            id="error-msg"
+            class="absolute left-11 bottom-1 text-sm text-red"
+          ></div>
+        </form>
+
+        <!-- Link-1 -->
+        <div
+          class="px-2 py-6 lg:px-6 lg:py-8 rounded-lg flex flex-col gap-y-1 w-full bg-white items-center justify-between md:flex-row"
+        >
+          <div class="text-veryDarkViolet text-center lg:text-left font-bold">
+            https://frontendmentor.io
+          </div>
+          <div
+            class="flex flex-col gap-y-1 md:flex-row items-center md:gap-x-2"
+          >
+            <div class="text-center lg:text-left text-cyan font-bold">
+              https://rel.ink/k4IKyk
+            </div>
+            <button
+              class="bg-cyan px-8 py-2 text-white rounded-lg hover:opacity-70"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+        <!-- Link-2 -->
+        <div
+          class="px-2 py-6 lg:px-6 lg:py-8 rounded-lg flex flex-col gap-y-1 w-full bg-white items-center justify-between md:flex-row"
+        >
+          <div class="text-veryDarkViolet text-center lg:text-left font-bold">
+            https://frontendmentor.io
+          </div>
+          <div
+            class="flex flex-col gap-y-1 md:flex-row items-center md:gap-x-2"
+          >
+            <div class="text-center lg:text-left text-cyan font-bold">
+              https://rel.ink/k4IKyk
+            </div>
+            <button
+              class="bg-cyan px-8 py-2 text-white rounded-lg hover:opacity-70"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+        <!-- Link-3 -->
+        <div
+          class="px-2 py-6 lg:px-6 lg:py-8 rounded-lg flex flex-col gap-y-1 w-full bg-white items-center justify-between md:flex-row"
+        >
+          <div class="text-veryDarkViolet text-center lg:text-left font-bold">
+            https://frontendmentor.io
+          </div>
+          <div
+            class="flex flex-col gap-y-1 md:flex-row items-center md:gap-x-2"
+          >
+            <div class="text-center lg:text-left text-cyan font-bold">
+              https://rel.ink/k4IKyk
+            </div>
+            <button
+              class="bg-cyan px-8 py-2 text-white rounded-lg hover:opacity-70"
+            >
+              Copy
+            </button>
           </div>
         </div>
       </div>
