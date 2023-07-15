@@ -32,3 +32,10 @@ function isUrlValid(str) {
   );
   return pattern.test(str);
 }
+
+const hamburgerIcon = document.getElementById("hamburger--menu");
+const menu = document.getElementById("menu");
+hamburgerIcon.addEventListener("click", () => {
+  hamburgerIcon.classList.toggle("open");
+  menu.classList.toggle("hidden");
+});
